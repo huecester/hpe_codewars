@@ -1,0 +1,3 @@
+# HP Codewars
+
+Bazinga
