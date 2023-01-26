@@ -10,6 +10,7 @@ def parse_state(list: List[bool]) -> str:
 	return ''.join(['#' if c else '.' for c in list])
 
 def sum_indexes(list: List[bool], offset: int) -> int:
+	# TODO: fix my life
 	indexes = [i - offset if c else 0 for i, c in enumerate(list)]
 	return sum(indexes)
 
